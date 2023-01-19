@@ -46,7 +46,7 @@ header {
 }
 
 
-#burger, [for = burger] {
+#burger, [for = burger], .burger {
     display: none;
 }
 
