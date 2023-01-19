@@ -8,14 +8,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/media.css">
     <title>Bezu-re: Work & Collaboration</title>
 </head>
 <body>
     <header>
-        <div class="header header-logo">
+        <div class="header-logo">
             <img src="./assets/icons/Bezu-re.svg" alt="Bezu-re">
         </div>
-        <div class="header header-menu">
+        <div class="header-menu">
             <ul>
                 <li>Home</li>
                 <li>Services</li>
@@ -23,8 +24,22 @@
                 <li>Contact</li>
             </ul>
         </div>
-        <div class="header header-button">
+        <div class="header-button">
             <button>Sign Up</button>
+        </div>
+
+        <div class="burger">
+            <input type="checkbox" id="burger">
+            <label for="burger">≡</label>
+            <div class="nav">
+                <ul>
+                    <li>Home</li>
+                    <li>Services</li>
+                    <li>About Us</li>
+                    <li>Contact</li>
+                </ul>
+                <button>Sign Up</button>
+            </div>
         </div>
     </header>
 
@@ -74,7 +89,7 @@
             <h3>&dollar; 60k</h3>
             <h5>Last months <br> saved</h5>
         </div>
-        <div class="numbers-item_third">
+        <div class="numbers-item_third numbers-item">
             <img src="./assets/icons/scheme.svg" alt="1/4">
             <div>
                 <h5>Average early <br> growth rate</h5>
@@ -89,7 +104,7 @@
         </div>
         <div class="proposal-text">
             <h2>Grow Your Saving By <br> Investing Right Way</h2>
-            <h3>We start by making sure that the whole team understands the <br> question and starts on common footing. Some follow</h3>
+            <h3>We start by making sure that the whole team understands the question and starts on common footing. Some follow</h3>
             <div class="proposal-text_checks">
                 <h3><img src="./assets/icons/check.svg"> The supply chain crisis has caused</h3>
                 <h3><img src="./assets/icons/check.svg"> Global players and local</h3>
@@ -129,7 +144,9 @@
         <img src="./assets/imgs/clock.png">
     </div>
 
-    <img class="casual-bala" src="./assets/imgs/casual2.png">
+    <div class="casual-wrapper">
+        <img src="./assets/imgs/casual2.png">
+    </div>
 
     <footer>
         <h3>Follow Us On</h3>
